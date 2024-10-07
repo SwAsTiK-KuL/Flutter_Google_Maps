@@ -68,7 +68,7 @@ class _LocationInputScreenState extends State<LocationInputScreen> {
 
   // Fetch the latitude and longitude from the Google Maps Geocoding API
   Future<Map<String, dynamic>?> getLocationFromApi(String address) async {
-    final apiKey = 'AIzaSyBC9CHm3530x-ihIAM1q4DGtKZuldCjzG4'; // Replace with your Google API key
+    final apiKey = 'Replace with your Google API key'; 
     final url =
         'https://maps.googleapis.com/maps/api/geocode/json?address=$address&key=$apiKey';
 
