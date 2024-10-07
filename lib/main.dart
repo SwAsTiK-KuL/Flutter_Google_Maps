@@ -65,7 +65,7 @@ class _LocationInputScreenState extends State<LocationInputScreen> {
   }
 
   Future<Map<String, dynamic>?> getLocationFromApi(String address) async {
-    final apiKey = 'AIzaSyBC9CHm3530x-ihIAM1q4DGtKZuldCjzG4';
+    final apiKey = 'Enter Your API';
     final url =
         'https://maps.googleapis.com/maps/api/geocode/json?address=$address&key=$apiKey';
 
